@@ -23,7 +23,7 @@ fetch("./videos.json")
           hours = Math.floor(timeCreated / 3.6e+6 )
         }
         document.querySelector(`.${data.categories[i].title.substr(0, data.categories[i].title.indexOf(" "))} .row`).innerHTML += `
-        <div class="myndband${data.videos[data.categories[i].videos[u] - 1].id} col col-4 myndband">
+        <div class="myndband${data.videos[data.categories[i].videos[u] - 1].id} col col-4 col-sm-12 myndband">
           <div class="myndband-poster"><img src="${data.videos[data.categories[i].videos[u] - 1].poster}"></div>
           <div class="myndband-title"><p>${data.videos[data.categories[i].videos[u] - 1].title}</p></div>
           <div class="myndband-time">${(() => {
