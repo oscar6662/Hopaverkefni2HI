@@ -9,14 +9,20 @@
     "sass": "node-sass --source-map-embed styles.scss -o css ",
     "sass-watch": "npm run sass && node-sass --source-map-embed --watch styles.scss -o css",
     "dev": "concurrently npm:sass-watch npm:browser-sync",
-    "lint": "stylelint styles.scss ./**/*.scss"
+    "lint": "stylelint styles.scss ./**/*.scss",
+    "esLint":"npx eslint ./**/*.js",
+    "test": "concurrently npm:lint npm:esLint",
+    "rollup": "rollup js/test.js --format iife --name 'myBundle' --file bundle.js"
   },
   "author": "Kristjan Gabriel",
   "license": "ISC",
   "devDependencies": {
+    "babel": "^6.23.0",
     "browser-sync": "^2.26.12",
     "concurrently": "^5.3.0",
+    "eslint": "^7.13.0",
     "node-sass": "^4.14.1",
+    "rollup": "^2.33.1",
     "stylelint": "^13.7.2",
     "stylelint-config-sass-guidelines": "^7.1.0",
     "stylelint-config-standard": "^20.0.0"
