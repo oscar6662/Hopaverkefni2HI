@@ -71,6 +71,5 @@ fetch("./videos.json")
         </div></a>
         `;
       }
-    }
-    
+    }  
   });
