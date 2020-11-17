@@ -14,6 +14,21 @@
     </div>
   </header>
   <main class="grid">
+    <figure id="videoContainer">
+      <video id="video" controls preload="metadata" poster="/videos/bunny.png">
+         <source src="/videos/bunny.mp4" type="video/mp4">
+         <object type="application/x-shockwave-flash" data="flash-player.swf?videoUrl=video/videos/bunny.mp4" width="1024" height="576">
+            <param name="movie" value="flash-player.swf?videoUrl=video/videos/bunny.mp4" />
+            <param name="allowfullscreen" value="true" />
+            <param name="wmode" value="transparent" />
+            <param name="flashvars" value="controlbar=over&amp;image=img/poster.jpg&amp;file=flash-player.swf?videoUrl=video/tears-of-steel-battle-clip-medium.mp4" />
+            <img alt="bunny" src="/videos/bunny.png" width="1024" height="428" title="No video playback possible, please download the video from the link below" />
+         </object>
+         <!-- Offer download -->
+         <a href="/videos/bunny.mp4">Download MP4</a>
+      </video>
+   </figure>
+
   </main>
   <footer>
   </footer>
