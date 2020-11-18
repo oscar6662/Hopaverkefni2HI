@@ -10,7 +10,7 @@
     "sass-watch": "npm run sass && node-sass --source-map-embed --watch styles.scss -o css",
     "dev": "concurrently npm:sass-watch npm:browser-sync",
     "lint": "stylelint styles.scss ./**/*.scss",
-    "esLint":"npx eslint ./**/*.js",
+    "esLint": "npx eslint ./**/*.js",
     "test": "concurrently npm:lint npm:esLint",
     "rollup": "rollup js/test.js --format iife --name 'myBundle' --file bundle.js"
   },
