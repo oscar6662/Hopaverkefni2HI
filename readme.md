@@ -127,3 +127,33 @@ Sett verða fyrir tíu minni verkefni þar sem átta bestu gilda 5% hvert, samta
 Sett verða fyrir tvö hópverkefni þar sem hvort um sig gildir 10%, samtals 20% af lokaeinkunn.
 
 > Útgáfa 0.1
+
+
+
+
+# TÖL 107 Hópverkefni 2
+Hópverkefni 2 í TÖL107 haust 2020
+***
+## Efnisyfirlit
+* [Nafn](#töl-107-hópverkefni) <br /> 
+* [Efnisyfirlit](#efnisyfirlit) <br />
+* [Höfundar](#höfundar) <br /> 
+* [Um verkefni](#um-verkefni) <br /> 
+* [Uppsetning](#uppsetning) <br /> 
+* [Notkun](#notkun) <br /> 
+
+## Höfundar
+* Ingibjörg Salvör Pálsdóttir isp2@hi.is
+* Kristófer
+* Óskar
+* Tinna Hallsdóttir tih20@hi.is
+
+## Um verkefni
+..
+
+## Uppsetning
+Hægt er að klóna verkefnið og keyra locally. Eftirfarandi tól þurfa að vera sett upp með npm:
+* asdf
+
+## Notkun
+.
