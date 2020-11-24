@@ -10,95 +10,27 @@ main {
   }
 }
 
-.li {
-  list-style-type: none;
-}
-
-.video {
-border: 7px solid rgb(182, 57, 57);
-}
-
-p {
-position: absolute;
-top: 310px;
-}
-
 .player {
 position: absolute;
 display: flex;
 flex-wrap: wrap;
 }
 
-.controls {
-visibility: visible;
-opacity: 0.5;
-width: 400px;
-border-radius: 90px;
-position: absolute;
-bottom: 20px;
-left: 50%;
-margin-left: -200px;
-background-color: black;
-box-shadow: 3px 3px 5px rgb(187, 59, 59);
-transition: 1s all;
-display: flex;
-}
+
 
 .player:hover .controls player:focus .controls {
 opacity: 1;
 }
-
-button:before {
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-position: relative;
-content: attr(data-icon);
-color: rgb(117, 45, 45);
-text-shadow: 1px 1px 0px rgb(19, 18, 18);
-}
-
-.play:before {
-font-size: 22px;
-}
-
-
-button {
-background-color: aqua;
-position: relative;
-border: 0;
-flex: 1;
-outline: none;
-height: 20px;
-
-  .play{
-    background-color: aqua;
-    border: 4;
-  }
-}
-
-
 .timer {
   height: 38px;
   line-height: 19px;
   box-shadow: inset 0 -5px 25px rgba(0,0,0,0.3);
   border-right: 1px solid #333;
   }
-
-
-button .controls {
-  background: linear-gradient(to bottom,#222,#666);
-  }
-
-
-.play {
-border-radius: 10px 0 0 10px;
-}
-
 .fwd {
 border-radius: 0 10px 10px 0;
 background-color: aqua;;
 }
-
 .timer {
 line-height: 38px;
 font-size: 10px;
@@ -123,14 +55,6 @@ z-index: 2;
 position: absolute;
 z-index: 3;
 left: 19px;
-}
-
-button:hover,button:focus {
-box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-box-shadow: inset 3px 3px 2px black;
 }
 
 .active:before {

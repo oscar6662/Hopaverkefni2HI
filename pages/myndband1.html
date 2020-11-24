@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/styles.css" />
+	<link rel="stylesheet" href="https://use.typekit.net/zff0paq.css">
     <title>Document</title>
   </head>
   <body>
     <script src="/js/videocontrols.js"></script>
     <header>
       <div class="Header-text grid">
-        <h1 class="row col col-12">Fræðslumyndbandsleigan</h1>
+        <h1 class="row col col-12 title">Fræðslumyndbandsleigan</h1>
       </div>
     </header>
     <main class="grid">
@@ -55,21 +56,22 @@
             </video>
           </figure>
       </div>
-      <div class="row col-6 col-12">
-      <ul class="video-controls controls">
-        <li><button class="playpause" type="button">Play/Pause</button></li>
-        <li><button class="stop" type="button">Stop</button></li>
-        <li class="progress">
-          <progress class="progress" value="0" min="0">
-            <span class="progress-bar"></span>
-          </progress>
-        </li>
-        <li><button class="mute" type="button">Mute/Unmute</button></li>
-        <li><button class="volinc" type="button">Vol+</button></li>
-        <li><button class="voldec" type="button">Vol-</button></li>
-        <li><button class="fs" type="button">Fullscreen</button></li>
-      </ul>
+      <div class="row col-6 col-12 controls">
+      <div>
+        <button class="back" type="button"></button>
+        <button class="playpause" type="button"></button>
+        <button class="mute" type="button"></button>
+        <button class="fs" type="button"></button>
+        <button class="next" type="button"></button>
       </div>
+      </div>
+	  
+	  <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio nisi, blandit quis turpis nec, ultrices placerat ante. Suspendisse viverra enim id tempus interdum.</p>
+	  <p class="description">Maecenas cursus nec leo ac auctor</p>
+	  
+	  <div class="related">
+		<h2>Tengd myndbönd</h2>
+	  </div>
     </main>
     <footer></footer>
   </body>

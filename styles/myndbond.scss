@@ -1,0 +1,69 @@
+.title{
+	font-size:36px;
+	justify-content:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-family: omnes-pro,sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
+.video {
+border: 3px gray;
+border-style: solid none;
+width:1290px;
+}
+.controls{
+	justify-content:center;
+	margin-left:15px;
+	div{
+		padding-top:20px;
+		padding-bottom:40px;
+		.back{
+			background-image:url("../img/back.svg");
+		}
+		.playpause{
+			background-image:url("../img/play.svg");	
+		}
+		.mute{
+			background-image:url("../img/mute.svg");
+		}
+		.fs{
+			background-image:url("../img/fullscreen.svg");
+		}
+		.next{
+			background:url("../img/next.svg");
+		}
+		.back,.playpause,.mute,.fs,.next{
+			background-size:cover;
+			font-weight: bold;
+			height: 50px;
+			width: 50px;
+			background-color: Transparent;
+			background-repeat:no-repeat;
+			border: none;
+			cursor:pointer;
+			overflow: hidden;
+			outline:none;
+			margin-right:10px;
+		}
+	}
+}
+.description{
+	font-family:Arial;
+	padding-bottom:5px;
+}
+.related{
+	h2{
+		font-size:36px;
+		justify-content:center;
+		padding-top:20px;
+		padding-bottom:20px;
+		font-family: omnes-pro,sans-serif;
+		font-weight: 800;
+		font-style: normal;
+		padding-bottom:20px;
+	}
+	.related2{
+	justify-content:left;
+	}
+}
